@@ -1,0 +1,11 @@
+--- starship-0.32.1/Cargo.toml	2019-12-20T20:46:32+00:00
++++ starship-0.32.1/Cargo.toml	2019-12-26T07:19:53.098247+00:00
+@@ -84,8 +84,6 @@
+ 
+ [dependencies.reqwest]
+ version = "0.9.24"
+-features = ["rustls-tls"]
+-default-features = false
+ 
+ [dependencies.serde_json]
+ version = "1.0.44"
